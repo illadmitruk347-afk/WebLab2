@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №2 - Варіант 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Верхнє меню -->
+    <header class="bg-white shadow-md p-4 flex flex-col md:flex-row justify-between items-center">
+        <div class="text-2xl font-bold text-blue-600 mb-2 md:mb-0">LOGO</div>
+        <nav class="flex gap-4">
+            <a href="#topic1" class="hover:text-blue-500 font-medium">Topic 1</a>
+            <a href="#topic2" class="hover:text-blue-500 font-medium">Topic 2</a>
+            <a href="#topic3" class="hover:text-blue-500 font-medium">Topic 3</a>
+            <a href="#topic4" class="hover:text-blue-500 font-medium">Topic 4</a>
+        </nav>
+    </header>
+
+    <!-- Основний вміст: 4 секції (Варіант 3) -->
+    <main class="p-6">
+        <h1 class="text-4xl text-blue-600 font-bold mb-6 text-center">Головна сторінка проєкту</h1>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <section id="topic1" class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Topic 1: Вступ</h2>
+                <p class="text-base leading-normal m-2 text-gray-600">Опис першої секції з використанням утилітарних класів.</p>
+                <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-700 transition font-semibold">Кнопка</button>
+            </section>
+
+            <section id="topic2" class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Topic 2: Аналіз</h2>
+                <p class="text-base leading-normal m-2 text-gray-600">Опис другої секції для мобільних та десктопів.</p>
+                <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-700 transition font-semibold">Кнопка</button>
+            </section>
+
+            <section id="topic3" class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Topic 3: Налаштування</h2>
+                <p class="text-base leading-normal m-2 text-gray-600">Опис третьої секції адаптивної сітки.</p>
+                <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-700 transition font-semibold">Кнопка</button>
+            </section>
+
+            <section id="topic4" class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold mb-2">Topic 4: Висновки</h2>
+                <p class="text-base leading-normal m-2 text-gray-600">Опис четвертої секції з навігацією.</p>
+                <button class="bg-green-500 text-white p-2 rounded-lg hover:bg-green-700 transition font-semibold">Кнопка</button>
+            </section>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="bg-gray-800 text-white p-4 text-center mt-8">
+        <p>Контактна інформація: університетська пошта | Дмитрук Ілля</p>
+    </footer>
+
+</body>
+</html>
